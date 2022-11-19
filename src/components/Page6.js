@@ -83,7 +83,9 @@ const Page6 = () => {
       <div class="d-flex justify-content-end mt-4">
         <button class="btn btn-outline-success" type="button">See More</button>
       </div>
-
+      <div class="d-flex justify-content-center mt-5">
+        <button class="btn btn-success px-4" type="button">Learn More</button>
+      </div>
       </div>
   )
 }

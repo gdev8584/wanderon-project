@@ -10,6 +10,7 @@ import Page4 from './components/Page4';
 import Page5 from './components/Page5';
 import Page6 from './components/Page6';
 import Page7 from './components/Page7';
+import Testimonials from './components/Testimonials';
 export const dcontext = createContext()
 function App() {
   const [data1,setData1] = useState("")
@@ -44,6 +45,7 @@ function App() {
         <Page4 />
         <Page5 />
         <Page6 />
+        <Testimonials />
         <Page7 />
         <Footer />
     </div>

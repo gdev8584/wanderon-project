@@ -1,0 +1,119 @@
+
+.fifth_body .container {
+    background: #FFFFFF;
+    height: 70vh;
+  }
+  .fifth_body .container h2 {
+    margin-top: 20px;
+    text-align: center;
+    color: rgb(39, 120, 39);
+    font-size: 2rem;
+    margin-bottom: 20px;
+    line-height: 100%;
+    font-weight: 700;
+  }
+  .fifth_body .container img {
+    margin: 20px;
+  }
+  .cbd {
+    width: 80% !important;
+  }
+  .fifth_body .container h5 {
+    text-align: center;
+    color: rgb(39, 120, 39);
+    padding-top: 25px;
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+  .fifth_body .container .fifth_col {
+    filter: drop-shadow(0px 16px 48px rgba(0, 0, 0, 0.1607843137));
+    width: 80% !important;
+    background: #F8FAFC;
+    border-radius: 3rem;
+    height: 18rem;
+  }
+  .fifth_body .container .axc {
+    width: 240px !important;
+    font-size: 10px !important;
+    height: 200px;
+    border-radius: 2rem;
+    display: grid;
+    gap: 2;
+    background: #FFFFFF;
+    position: absolute;
+    top: 10rem;
+    filter: drop-shadow(0px 16px 48px rgba(0, 0, 0, 0.1607843137));
+  }
+  .fifth_body .container .arrow {
+    width: 5rem;
+    height: 5rem;
+    background: #FFFFFF;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    right: -3rem;
+    bottom: 4rem;
+    filter: drop-shadow(0px 7px 17px rgba(0, 0, 0, 0.1607843137));
+    cursor: pointer;
+  }
+  .fifth_body .container .arrow i {
+    font-size: 2rem;
+    position: absolute;
+    top: 1.5rem;
+    left: 1.9rem;
+  }
+  .fifth_body .container .txt1 {
+    position: absolute;
+    top: 5rem;
+    padding: 0.5rem;
+    font-weight: 500;
+  }
+  .fifth_body .container .c1 {
+    width: 3rem;
+    position: absolute;
+    top: 0rem;
+    left: 2%;
+    left: 0%;
+  }
+  .fifth_body .container .c2 {
+    width: 2.5rem;
+    position: absolute;
+    right: 3rem;
+    top: 0;
+  }
+  .fifth_body .container .c3 {
+    width: 2.5rem;
+    position: absolute;
+    right: 2rem;
+    top: 0;
+  }
+  .fifth_body .container .c4 {
+    width: 2.5rem;
+    position: absolute;
+    right: 1rem;
+    top: 0;
+  }
+  .fifth_body .container .c5 {
+    width: 2.5rem;
+    position: absolute;
+    right: 0rem;
+    top: 0;
+  }
+  .fifth_body .container .c6 {
+    width: 2.5rem;
+    position: absolute;
+    right: -1rem;
+    top: 0;
+  }
+  .fifth_body .container h3 {
+    font-size: 10px;
+    position: absolute;
+    top: 1.2rem;
+    left: 40px;
+  }
+  .fifth_body .container .r1 {
+    font-size: 8px;
+    position: absolute;
+    top: 2rem;
+  }
+  
