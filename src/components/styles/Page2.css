@@ -104,7 +104,7 @@
   }
   button{
     border: none;
-    background-color: white;
+    background-color: transparent;
   }
   .btn-aa img:hover {
     transform: scale(1.1);
