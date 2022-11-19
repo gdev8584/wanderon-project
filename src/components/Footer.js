@@ -5,11 +5,11 @@ const Footer = () => {
   return (
     <>
     <div className='d-flex justify-content-center mt-5 foot-top'>
-        <div><i class="fab fa-facebook-f"></i></div>
-        <div><i class="fab fa-instagram"></i></div>
-        <div><i class="fab fa-linkedin-in"></i></div>
-        <div><i class="fab fa-youtube"></i></div>
-        <div><i class="fab fa-pinterest-p"></i></div>
+        <div><i className="fab fa-facebook-f"></i></div>
+        <div><i className="fab fa-instagram"></i></div>
+        <div><i className="fab fa-linkedin-in"></i></div>
+        <div><i className="fab fa-youtube"></i></div>
+        <div><i className="fab fa-pinterest-p"></i></div>
     </div>
     <div className='text-center mt-3 foot-med1'>Address</div>
     <div className='text-center'>WANDERON EXPERIENCES PVT LTD</div>

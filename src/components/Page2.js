@@ -53,21 +53,21 @@ const Page2 = () => {
                 <img src={item.featuredImage.link} className="card-img-top simg" alt={item.featuredImage.altText} />
                 <div className='d-flex justify-content-between pt-2 px-3 s-slug text-success'>
                     <div>{item.featuredImage.title}</div>
-                    <div><i class="fas fa-share-alt"></i></div>
+                    <div><i className="fas fa-share-alt"></i></div>
                 </div>
                 <div className="card-body">
                     <h5 className="card-title text-start text-capitalize">{item.title}</h5>
                     <p className="card-text text-start"><Paragraph /></p>
                     <div className='d-flex jusify-content-start'>
-                    <span class="badge rounded-pill text-bg-light sv">{item.tags[0].name}</span>
-                    <span class="badge rounded-pill text-bg-light sv">{item.tags[1].name}</span>
+                    <span className="badge rounded-pill text-bg-light sv">{item.tags[0].name}</span>
+                    <span className="badge rounded-pill text-bg-light sv">{item.tags[1].name}</span>
                     </div>
                     <p className="card-text"><small className="text-muted d-flex justify-content-between p-4">
                     <div>
                     {d(item.date)}
                     </div>
                     <div>
-                    <i class="fas fa-eye"></i> 10k Viewers
+                    <i className="fas fa-eye"></i> 10k Viewers
                     </div></small></p>
                 </div>
             </div>
