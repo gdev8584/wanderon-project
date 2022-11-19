@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .page1 {
+   height: 85vh;
+  }
+  .htext a {
+    color: white;
+    font-weight: 500;
+  }
+  .navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    color: aliceblue;
+    font-weight: 500;
+  }
+  .pmain-logo {
+    position: absolute;
+    left: 50%;
+    top: 12%;
+    transform: translate(-50%,0%);
+    z-index: 999;
+  }
+  .pmain-logo img {
+    height: 80px;
+    filter: drop-shadow(0 0 0.75rem black);
+  }
+  .phead {
+    width: 60%;
+    color: white;
+    text-align: center;
+    position: absolute;
+    left: 20%;
+    top: 45%;
+    filter: drop-shadow(0 1rem 0.75rem black);
+    z-index: 999;
+  
+  }
+  
+  .htext a:hover{
+    color: #f8f8f8;
+  }
+  .anum {
+    position: absolute;
+    left: 25%;
+  }
+  .pbackg{
+    background-color: #259d57;
+    height: 50px;
+    position: relative;
+  }
+  .mimg{
+    width: 60%;
+    height: 380px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 5px;
+    filter: drop-shadow(0 0 0.75rem black);
+    filter: blur(0.5px);
+  }
+
+  .search-pannel {
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    top: 73%;
+    transform: translate(-50%,0%);
+    outline: green;
+    filter: drop-shadow(0 0 0.75rem black);
+  }
+  .search-pannel .pinput {
+    width: 80%;
+    height: 55px;
+    padding-left: 40px;
+    border: 1px solid green;
+    outline: none;
+  }
+  .search-pannel .pinput::placeholder{
+    color: green;
+    opacity: 1;
+    font-size: large;
+  }
+  .picon{
+    position: absolute;
+    left: 2%;
+    top: 36%;
+    color: green;
+  }
+  .pbtn{
+    background-color: green;
+    border: none;
+    color: white;
+    width: 25%;
+    height: 57px;
+    position: absolute;
+    transform: translate(-10%,-2%);
+    font-size: large;
+  }
+  .pbutton {
+    width: 100%;
+    background-color: rgb(203, 223, 210);
+    position: absolute;
+    left: 0%;
+    top: 90%;
+    padding: 6px;
+    
+  }
+  /* .pbutton button{
+    background-color: #f8f8f8;
+  } */
+  
+  @media (max-width: 900px) {
+    .page1 {
+      height: 85vh;
+      margin-bottom: 30px;
+     }
+    .mimg{
+      width: 90%;
+      height: 320px;
+    }
+    /* svg {
+      width: 100vw;
+      height: 500%;
+    } */
+    .search-pannel {
+      width: 80%;
+      position: absolute;
+      left: 50%;
+      top: 60%;
+      transform: translate(-50%,100%);
+    }
+    .pbutton {
+      position: absolute;
+      top: 80%;
+    }
+    .anum {
+     display: none;
+    }
+    .phead {
+      width: 80%;
+      color: white;
+      text-align: center;
+      position: absolute;
+      left: 12%;
+      top: 40%;
+    }
+    
+  }
