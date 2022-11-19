@@ -14,6 +14,9 @@ ul{
 .p7c {
     border-right: 2px solid white;
 }
+.p7c p {
+    text-align: justify;
+}
 
 @media (max-width: 900px) {
     .p7b {
