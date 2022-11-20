@@ -19,7 +19,7 @@ const Headers = () => {
                 </a>
             </li>
                 <li className="nav-item mx-lg-2">
-                <a className="nav-link active" aria-current="page" href="#">Diwali Sale</a>
+                <a className="nav-link active" aria-current="page" href="diwali">Diwali Sale</a>
                 </li>
                 <li className="nav-item mx-lg-2">
             <a className="nav-link" href="trips">International Trips</a>
