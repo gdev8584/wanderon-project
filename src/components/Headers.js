@@ -5,7 +5,7 @@ const Headers = () => {
   return (
     <nav className="navbar navbar-expand-lg bg-success">
         <div className="container-fluid">
-            <a className="px-5" href="#">
+            <a className="px-5" href="home">
                 <img width={70} height={70} src={Logo} alt='logo'/>
             </a>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -14,7 +14,7 @@ const Headers = () => {
             <div className="collapse navbar-collapse d-lg-flex justify-content-end px-4" id="navbarSupportedContent">
             <ul className="navbar-nav me-2 mb-lg-0 htext">
             <li className="nav-item">
-                <a className="nav-link mx-lg-2 anum" href="#">
+                <a className="nav-link mx-lg-2 anum" href="mobile">
                 +91-9870301533
                 </a>
             </li>
@@ -22,15 +22,15 @@ const Headers = () => {
                 <a className="nav-link active" aria-current="page" href="#">Diwali Sale</a>
                 </li>
                 <li className="nav-item mx-lg-2">
-            <a className="nav-link" href="#">International Trips</a>
+            <a className="nav-link" href="trips">International Trips</a>
             </li>
 
             <li className="nav-item mx-lg-2">
-            <a className="nav-link" href="#">Blogs</a>
+            <a className="nav-link" href="blogs">Blogs</a>
             </li>
 
             <li className="nav-item mx-lg-2">
-            <a className="nav-link" href='#'>About Us</a>
+            <a className="nav-link" href='about'>About Us</a>
             </li>
         </ul>
         </div>
