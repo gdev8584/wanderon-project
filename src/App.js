@@ -16,14 +16,7 @@ function App() {
   const [data1,setData1] = useState("")
   const [callapi,setCallApi] = useState([])
   const [loading,setLoading] = useState(false)
-  let getData = async ()=>{
-    setLoading(true)
-    let resp = await fetch(`https://api.npoint.io/f89acb9ee900ca95b8dc`)
-       let data = resp.json()
-       setCallApi(await data)
-       xca(await data)
-       setLoading(false)
-  }
+  
   let xca = (data)=>{
     let xc = data.map((cur)=>{
       return cur
@@ -32,6 +25,14 @@ function App() {
   }
 
   useEffect(()=>{
+    let getData = async ()=>{
+    setLoading(true)
+    let resp = await fetch(`https://api.npoint.io/f89acb9ee900ca95b8dc`)
+    let data = resp.json()
+    setCallApi(await data)
+    xca(await data)
+    setLoading(false)
+    }
     getData()
   },[])
 
